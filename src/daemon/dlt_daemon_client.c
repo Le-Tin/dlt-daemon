@@ -108,6 +108,7 @@ static int dlt_daemon_client_send_all_multiple(DltDaemon *daemon,
                                                int size2,
                                                int verbose)
 {
+    /* Tin Le changed for git commit */
     int sent = 0;
     unsigned int i = 0;
     int ret = 0;
